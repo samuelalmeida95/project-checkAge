@@ -40,7 +40,7 @@ function verificar() {
         img.src = "../images/velhaf.png"
       }
     }
-    res.innerHTML = `Detectamos ${genero} com idade de ${calculaIdade} anos`
+    res.innerHTML = `Detectamos ${genero} com idade de ${calculaIdade} anos, nasceu em ${anoNasc.value}`
     res.appendChild(img)
   }
 }
