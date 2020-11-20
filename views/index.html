@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Program Idades</title>
+</head>
+
+<body> 
+
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div>
+            Ano de nascimento:
+            <input type="number" id="ano" name="ano" min='0'>
+        </div>
+        <div>
+            Sexo:
+            <input type="radio" name="rad-sex" id="mas" checked>
+            <label for="mas">Masculino</label>
+
+            <input type="radio" name="rad-sex" id="fem">
+            <label for="mas">Feminino</label>
+
+            <p>
+                <input type="button" value="verificar" id="verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res">
+            Informe ano de nascimento e sexo acima
+        </div>
+    </section>
+
+    <footer>
+        <p> &copy; Aprendendo JS com html5 e css3</p>
+    </footer>
+
+
+    <script src="/js/program.js"></script>
+</body>
+</html>
